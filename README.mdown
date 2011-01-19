@@ -1,0 +1,14 @@
+# Ckeditor Helper
+
+## History
+This is just an advanced version of the helper in Valkum's post on the [bakery](http://bakery.cakephp.org/articles/Valkum/2009/11/08/ckeditor-3-x-new-fckeditor-version)
+
+## How to use
+* Download ckeditor and place it in js folder
+* Place the helper file in to views/helpers
+* Include the helper in the controller
+* Include the ckeditor/ckeditor.js file in the view
+
+For any view that needs it, use 
+> echo $form->input('Model.field');
+> echo $ckeditor->load('Model.field');
