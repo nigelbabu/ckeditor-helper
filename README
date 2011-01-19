@@ -1,0 +1,8 @@
+Place the helper file into views/helpers
+
+Include the helper in the controller
+
+Include the ckeditor/ckeditor.js file in the view
+
+For any view that needs it, use echo $ckeditor->load('Model.field'); after
+the form element to use it
